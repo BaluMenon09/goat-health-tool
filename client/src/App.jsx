@@ -37,7 +37,7 @@ export default function App() {
     setResult(null);
 
     try {
-      const response = await fetch("http://localhost:5000/api/check-goat-health", {
+      const response = await fetch("https://goat-health-tool.onrender.com/api/check-goat-health", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
